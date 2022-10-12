@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html><head><title>About Us</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ul{list-style-type: none;
+
+margin: 0;
+padding: 1;
+overflow: hidden;
+background-color:#F39C12;
+}li{float : left;
+}li a{display : block;
+color : black;
+text-align:center;
+padding:18px 10px;
+text-decoration : none;
+}body { font-family: Arial, Helvetica, sans-serif;
+ background-color:LightGrey;
+ margin: 0;
+}html { box-sizing: border-box;
+}*, *:before, *:after { box-sizing: inherit;
+}.column { float: left;
+ width: 20%;
+ margin-bottom: 20px;
+ padding: 0 6px;
+}.about-section { padding: 40px;
+ text-align: center;
+ background-color: #F39C12 ;
+ color: black;
+}.container { text-align:center;
+}.container::after, .row::after { content: "";
+ clear: both;
+ display: table;
+}.title { color:#CC7F11;
+}* {box-sizing: border-box;}
+input[type=text], select, textarea { width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ margin-top: 6px;
+ margin-bottom: 16px;
+ resize: vertical;
+}input[type=submit] { background-color:#F39C12 ;
+ color: white;
+ padding: 12px 20px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}input[type=submit]:hover { background-color: #404040;
+}.container2 { padding: 40px;
+ border-radius: 5px;
+ background-color: LightGrey;
+ padding: 20px;
+} .sticky { position: fixed;
+ top: 0;
+ width: 100%;
+}
+@media only screen and (max-width: 820px) {
+    .about-section {
+      background-color: lightblue;
+    }
+  }
+</style></head><body><ul>
+<li><a class="active"
+href="C:/Users/Admin/Desktop/wp/WP%20ASSIGNMENT/assignment_1.html
+">
+<canvas id="myCanvas" width="230" height="100" style="border:1px solid #000000;">
+    Your browser does not support the HTML canvas tag.</canvas>
+    
+    <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.font = "30px Arial";
+    ctx.fillText("STIR & BREW",10,50);
+    </script>
+<div class=”sticky”><h3><u><b>HOME</b></u></h3></div></a></li>
+</ul><div class="about-section">
+ <h1 style='font-size:40px;font-family: cursive;'><u>About Us</u></h1>
+ <p><b><span style='font-size:20px; font-family: Courier
+New;'>&#10052;&#10052;&#10052;INHALE CAFFEINE EXHALE
+NEGATIVITY&#10052;&#10052;&#10052;</span></b></p>
+ <p><img src="../html/cafe.jpg"
+alt="cafe" style="width:60%"></p>
+ <p style="font-family: cursive;"><b>'We Our Proud of our Interior.'</b></p>
+ <p style="font-family: cursive; text-align:left;"><b>OPENING
+HOURS</b></p>
+ <p style="font-family: cursive; text-align:left;">Mon & Tues- 10:00am to
+20:00pm</p>
+ <p style="font-family: cursive; text-align:left;"> Wed & thurs- 10:00am to
+20:00pm</p>
+ <p style="font-family: cursive; text-align:left;">Fri, Sat & Sun- 6:00pm to
+22:00pm </p>
+</div>
+
+<h4 style='font-family: cursive; text-align:center;'>FEEDBACK FORM</h4>
+<div class="container2">
+ <form action=" ">
+ <label for="fname">First Name</label>
+ <input type="text" id="fname" name="firstname" placeholder="Your
+name..">
+ <label for="lname">Last Name</label>
+ <input type="text" id="lname" name="lastname" placeholder="Your last
+name..">
+ <label for="city">city<label>
+ <select id="city" name="city">
+ <option value="Mumbai">Mumbai</option>
+ <option value="Pune">Pune</option>
+ <option value="Nashik">Nashik</option>
+ <option value="Berhumpur">Berhumpur</option>
+ </select>
+ <label for="subject">Feed Back</label>
+ <textarea id="subject" name="subject" placeholder="Write something.."
+style="height:200px"></textarea>
+ <input type="submit" value="Submit">
+ </form></div></body></html>
